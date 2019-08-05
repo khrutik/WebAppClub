@@ -12,14 +12,18 @@
 		</form>
 		<?php
 			$number = $_POST["number"];
-			if($number%2)
+
+			if(isset($number))
 			{
+				if($number%2)
+				{
 				echo "เลขคี่";
-			}
-			else
-			{
+				}
+				else
+				{
 				echo "เลขคู่";
+				}
 			}
-		?>	
+		?>
 	</body>
 </html>
