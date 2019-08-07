@@ -4,3 +4,4 @@
 2. index.php      // php form input(textbox/button) get/post echo
 3. oddeven.php    // variable if isset
 4. guessnumber.php
+5. atm.php
